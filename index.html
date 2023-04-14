@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exemplo de requisição HTTP GET com javascript puro</title>
+</head>
+<body>
+
+    <input type="text" id="url" style="width:300px;" value=>
+    <button onclick="fazerRequisicao();">Escrever na tela</button>
+    <hr />
+    <div id="demo"></div>
+
+    <script>
+        function fazerRequisicao(){
+
+            var url = document.getElementById('url').value;
+
+           
+      document.getElementById("demo").innerHTML = url ;
+            
+        }
+    </script>
+</body>
+</html>
