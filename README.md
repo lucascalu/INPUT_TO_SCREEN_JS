@@ -2,4 +2,4 @@
 
 ##Código escrito na linguagem JS para pegar conteúdo de componente INPUT e escrever na Tela
 
-![teste]('cp1.PNG')
+![teste](cp1.PNG)
